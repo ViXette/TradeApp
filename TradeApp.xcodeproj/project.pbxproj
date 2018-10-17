@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48284D122176B76400FC2142 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48284D112176B76400FC2142 /* RegisterViewController.swift */; };
+		485AE2F22175A9AD00DBA671 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485AE2F12175A9AD00DBA671 /* AppDelegate.swift */; };
+		485AE2F72175A9AD00DBA671 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 485AE2F52175A9AD00DBA671 /* Main.storyboard */; };
+		485AE2F92175A9AE00DBA671 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 485AE2F82175A9AE00DBA671 /* Assets.xcassets */; };
+		485AE2FC2175A9AE00DBA671 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 485AE2FA2175A9AE00DBA671 /* LaunchScreen.storyboard */; };
+		485AE3072175A9AF00DBA671 /* TradeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485AE3062175A9AF00DBA671 /* TradeAppTests.swift */; };
+		485AE3122175AB8D00DBA671 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 485AE3112175AB8D00DBA671 /* GoogleService-Info.plist */; };
+		485AE3172175C2DB00DBA671 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485AE3162175C2DB00DBA671 /* Constants.swift */; };
+		9D0AE130D88934D4F009F51B /* Pods_TradeAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C198B7627F2E700D1C494F8E /* Pods_TradeAppTests.framework */; };
+		FF100A61DF55BBFB1107F0E8 /* Pods_TradeApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A01A5B7D7A55BF3380332C3B /* Pods_TradeApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		485AE3032175A9AF00DBA671 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 485AE2E62175A9AD00DBA671 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 485AE2ED2175A9AD00DBA671;
+			remoteInfo = TradeApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0304A9BED6A5EF4E9C90CE0A /* Pods-TradeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TradeApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TradeApp/Pods-TradeApp.debug.xcconfig"; sourceTree = "<group>"; };
+		48284D112176B76400FC2142 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		485AE2EE2175A9AD00DBA671 /* TradeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TradeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		485AE2F12175A9AD00DBA671 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		485AE2F62175A9AD00DBA671 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		485AE2F82175A9AE00DBA671 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		485AE2FB2175A9AE00DBA671 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		485AE2FD2175A9AE00DBA671 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		485AE3022175A9AF00DBA671 /* TradeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TradeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		485AE3062175A9AF00DBA671 /* TradeAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeAppTests.swift; sourceTree = "<group>"; };
+		485AE3082175A9AF00DBA671 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		485AE3112175AB8D00DBA671 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		485AE3132175B3B800DBA671 /* TradeApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TradeApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		485AE3162175C2DB00DBA671 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		521F1D0A07E558AB248B9DD9 /* Pods-TradeAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TradeAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TradeAppTests/Pods-TradeAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		91AE36CF609464B58D039F66 /* Pods-TradeAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TradeAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TradeAppTests/Pods-TradeAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		A01A5B7D7A55BF3380332C3B /* Pods_TradeApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TradeApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C198B7627F2E700D1C494F8E /* Pods_TradeAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TradeAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA3DA0E166AC25073480ACA1 /* Pods-TradeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TradeApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-TradeApp/Pods-TradeApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		485AE2EB2175A9AD00DBA671 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF100A61DF55BBFB1107F0E8 /* Pods_TradeApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		485AE2FF2175A9AF00DBA671 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D0AE130D88934D4F009F51B /* Pods_TradeAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		485AE2E52175A9AD00DBA671 = {
+			isa = PBXGroup;
+			children = (
+				485AE2F02175A9AD00DBA671 /* TradeApp */,
+				485AE3052175A9AF00DBA671 /* TradeAppTests */,
+				485AE2EF2175A9AD00DBA671 /* Products */,
+				5E4DEB5A78A68E8A153FA427 /* Pods */,
+				A1B1A6A48DCB51E3E9AEFB0C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		485AE2EF2175A9AD00DBA671 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				485AE2EE2175A9AD00DBA671 /* TradeApp.app */,
+				485AE3022175A9AF00DBA671 /* TradeAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		485AE2F02175A9AD00DBA671 /* TradeApp */ = {
+			isa = PBXGroup;
+			children = (
+				485AE2F12175A9AD00DBA671 /* AppDelegate.swift */,
+				485AE3162175C2DB00DBA671 /* Constants.swift */,
+				485AE2F52175A9AD00DBA671 /* Main.storyboard */,
+				48284D112176B76400FC2142 /* RegisterViewController.swift */,
+				485AE2F82175A9AE00DBA671 /* Assets.xcassets */,
+				485AE2FA2175A9AE00DBA671 /* LaunchScreen.storyboard */,
+				485AE2FD2175A9AE00DBA671 /* Info.plist */,
+				485AE3112175AB8D00DBA671 /* GoogleService-Info.plist */,
+				485AE3132175B3B800DBA671 /* TradeApp-Bridging-Header.h */,
+			);
+			path = TradeApp;
+			sourceTree = "<group>";
+		};
+		485AE3052175A9AF00DBA671 /* TradeAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				485AE3062175A9AF00DBA671 /* TradeAppTests.swift */,
+				485AE3082175A9AF00DBA671 /* Info.plist */,
+			);
+			path = TradeAppTests;
+			sourceTree = "<group>";
+		};
+		5E4DEB5A78A68E8A153FA427 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0304A9BED6A5EF4E9C90CE0A /* Pods-TradeApp.debug.xcconfig */,
+				CA3DA0E166AC25073480ACA1 /* Pods-TradeApp.release.xcconfig */,
+				521F1D0A07E558AB248B9DD9 /* Pods-TradeAppTests.debug.xcconfig */,
+				91AE36CF609464B58D039F66 /* Pods-TradeAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A1B1A6A48DCB51E3E9AEFB0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A01A5B7D7A55BF3380332C3B /* Pods_TradeApp.framework */,
+				C198B7627F2E700D1C494F8E /* Pods_TradeAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		485AE2ED2175A9AD00DBA671 /* TradeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 485AE30B2175A9AF00DBA671 /* Build configuration list for PBXNativeTarget "TradeApp" */;
+			buildPhases = (
+				D0DAA4FB8997E24A8DF70F39 /* [CP] Check Pods Manifest.lock */,
+				485AE2EA2175A9AD00DBA671 /* Sources */,
+				485AE2EB2175A9AD00DBA671 /* Frameworks */,
+				485AE2EC2175A9AD00DBA671 /* Resources */,
+				475194E19CEF8E92FAA5B301 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TradeApp;
+			productName = TradeApp;
+			productReference = 485AE2EE2175A9AD00DBA671 /* TradeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		485AE3012175A9AF00DBA671 /* TradeAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 485AE30E2175A9AF00DBA671 /* Build configuration list for PBXNativeTarget "TradeAppTests" */;
+			buildPhases = (
+				D057000C54953696557BF3F0 /* [CP] Check Pods Manifest.lock */,
+				485AE2FE2175A9AF00DBA671 /* Sources */,
+				485AE2FF2175A9AF00DBA671 /* Frameworks */,
+				485AE3002175A9AF00DBA671 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				485AE3042175A9AF00DBA671 /* PBXTargetDependency */,
+			);
+			name = TradeAppTests;
+			productName = TradeAppTests;
+			productReference = 485AE3022175A9AF00DBA671 /* TradeAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		485AE2E62175A9AD00DBA671 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = ViXette;
+				TargetAttributes = {
+					485AE2ED2175A9AD00DBA671 = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
+					};
+					485AE3012175A9AF00DBA671 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 485AE2ED2175A9AD00DBA671;
+					};
+				};
+			};
+			buildConfigurationList = 485AE2E92175A9AD00DBA671 /* Build configuration list for PBXProject "TradeApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 485AE2E52175A9AD00DBA671;
+			productRefGroup = 485AE2EF2175A9AD00DBA671 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				485AE2ED2175A9AD00DBA671 /* TradeApp */,
+				485AE3012175A9AF00DBA671 /* TradeAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		485AE2EC2175A9AD00DBA671 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				485AE2FC2175A9AE00DBA671 /* LaunchScreen.storyboard in Resources */,
+				485AE3122175AB8D00DBA671 /* GoogleService-Info.plist in Resources */,
+				485AE2F92175A9AE00DBA671 /* Assets.xcassets in Resources */,
+				485AE2F72175A9AD00DBA671 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		485AE3002175A9AF00DBA671 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		475194E19CEF8E92FAA5B301 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TradeApp/Pods-TradeApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TradeApp/Pods-TradeApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D057000C54953696557BF3F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TradeAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0DAA4FB8997E24A8DF70F39 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TradeApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		485AE2EA2175A9AD00DBA671 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48284D122176B76400FC2142 /* RegisterViewController.swift in Sources */,
+				485AE2F22175A9AD00DBA671 /* AppDelegate.swift in Sources */,
+				485AE3172175C2DB00DBA671 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		485AE2FE2175A9AF00DBA671 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				485AE3072175A9AF00DBA671 /* TradeAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		485AE3042175A9AF00DBA671 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 485AE2ED2175A9AD00DBA671 /* TradeApp */;
+			targetProxy = 485AE3032175A9AF00DBA671 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		485AE2F52175A9AD00DBA671 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				485AE2F62175A9AD00DBA671 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		485AE2FA2175A9AE00DBA671 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				485AE2FB2175A9AE00DBA671 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		485AE3092175A9AF00DBA671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		485AE30A2175A9AF00DBA671 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		485AE30C2175A9AF00DBA671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0304A9BED6A5EF4E9C90CE0A /* Pods-TradeApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 649KJCZ7RD;
+				INFOPLIST_FILE = TradeApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ViXette.TradeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "TradeApp/TradeApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		485AE30D2175A9AF00DBA671 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA3DA0E166AC25073480ACA1 /* Pods-TradeApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 649KJCZ7RD;
+				INFOPLIST_FILE = TradeApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ViXette.TradeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "TradeApp/TradeApp-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		485AE30F2175A9AF00DBA671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 521F1D0A07E558AB248B9DD9 /* Pods-TradeAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 649KJCZ7RD;
+				INFOPLIST_FILE = TradeAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ViXette.TradeAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TradeApp.app/TradeApp";
+			};
+			name = Debug;
+		};
+		485AE3102175A9AF00DBA671 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91AE36CF609464B58D039F66 /* Pods-TradeAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 649KJCZ7RD;
+				INFOPLIST_FILE = TradeAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ViXette.TradeAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TradeApp.app/TradeApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		485AE2E92175A9AD00DBA671 /* Build configuration list for PBXProject "TradeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				485AE3092175A9AF00DBA671 /* Debug */,
+				485AE30A2175A9AF00DBA671 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		485AE30B2175A9AF00DBA671 /* Build configuration list for PBXNativeTarget "TradeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				485AE30C2175A9AF00DBA671 /* Debug */,
+				485AE30D2175A9AF00DBA671 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		485AE30E2175A9AF00DBA671 /* Build configuration list for PBXNativeTarget "TradeAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				485AE30F2175A9AF00DBA671 /* Debug */,
+				485AE3102175A9AF00DBA671 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 485AE2E62175A9AD00DBA671 /* Project object */;
+}
